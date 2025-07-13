@@ -117,7 +117,7 @@ const routes = [{
 ]
 
 const router = createRouter({
-  history: history: createWebHistory('/Cat-Manage-System/'),
+ history: createWebHistory('/Cat-Manage-System/'),
   routes
 });
 
