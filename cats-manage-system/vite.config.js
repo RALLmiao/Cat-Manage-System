@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
+   base: '/Cat-Manage-System/',
   server: {
     host: 'localhost', // 监听所有网络接口
     port: 5176,      // 端口号
